@@ -1,0 +1,339 @@
+    1  echo &shell
+    2  echo $shell
+    3  echo $SHELL
+    4  echo $shell
+    5  echo $SHELL
+    6  bash
+    7  command
+    8  bash $SHELL
+    9  echo $SHELL
+   10  ls
+   11  cd desktop
+   12  ls
+   13  ls
+   14  cd
+   15  cd .
+   16  cd desktop
+   17  ls
+   18  cd dat
+   19  cd .
+   20  cd ..
+   21  ks
+   22  list_contents
+   23  dir
+   24  pwd
+   25  cd C/Users/jakob
+   26  cd /c/Users
+   27  cd ..
+   28  cd..
+   29  cd Users
+   30  cd Jakob
+   31  /deskop
+   32  cd Desktop
+   33  ls -F
+   34  ls -F /
+   35  ls -F
+   36  ls -F /
+   37  ls
+   38  ls -s data-shell
+   39  ls -s data-shell/data
+   40  ls -S data-shell/data
+   41  ls -s data-shell/data
+   42  ls -S data-shell/data
+   43  ls -j
+   44  ls -j data-shell/data
+   45  ls --help
+   46  0
+   47  ls --help
+   48  ls data-shell/data
+   49  man ls
+   50  ls --help
+   51  man ls
+   52  ls --help
+   53  man ls
+   54  ls --help
+   55  man --help
+   56  ls -sS data-shell/data
+   57  cd data-shell
+   58  cd data
+   59  dir
+   60  pwd
+   61  ls -F
+   62  pwd
+   63  cd ..
+   64  cd ...
+   65  cd .
+   66  cd .
+   67  ls -Fa
+   68  cd
+   69  pwd
+   70  cd desktop
+   71  cd data-shell
+   72  cd data
+   73  MCRROOT/
+   74  dir
+   75  cd desktop
+   76  cd data-shell
+   77  cd data
+   78  dir
+   79  ls
+   80  ls
+   81  $SHELL
+   82  ls
+   83  pwd
+   84  cd .
+   85  cd ..
+   86  ls -F
+   87  ls
+   88  mkdir thesis
+   89  dir
+   90  ls -F
+   91  cd thesis
+   92  touch draft.txt
+   93  dir
+   94  ls -F
+   95  ls -l
+   96  cd ..
+   97  ls -l
+   98  cd thesis
+   99  ls -l
+  100  cd ..
+  101  pwd
+  102  mv thesis/draft.txt thesis/quotes.txt
+  103  ls thesis
+  104  mv thesis/draft.txt thesis/quotes.txt -i
+  105  mv theses/quotes.txt
+  106  mv theses/quotes.txt .
+  107  mv theses/quotes.txt .
+  108  ls theses
+  109  mv thesis/quotes.txt .
+  110  ls thesis
+  111  ls data
+  112  ls data-shell
+  113  pwd
+  114  pwd
+  115  ls -F
+  116  ls -F analyzed
+  117  ls
+  118  cp quotes.txt theses/quotations.txt
+  119  cp quotes.txt thesis/quotations.txt
+  120  ls
+  121  cd thesis
+  122  ls
+  123  cd ..
+  124  ls quotes.txt thesis/quotations.txt
+  125  ls quotes.txt thesis/quotatiosns.txt
+  126  cp -r thesis thesis_backup
+  127  ls
+  128  cd /mnt/c/Users
+  129  cd mnt
+  130  cd \mnt
+  131  cd mnt
+  132  ls -F 
+  133  rm quotes.txt
+  134  ls quotes.txt
+  135  touch quotes.txt
+  136  rm quotes.txt -i
+  137  ls
+  138  thesis
+  139  rm thesis
+  140  rm theses -r
+  141  rm thesis -r
+  142  pwd
+  143  cd molecules
+  144  *
+  145  ls
+  146  cd ..
+  147  ls molecules/*
+  148  ls molecules/*pdb
+  149  ls molecules/p*.pdb
+  150  ls molecules/?ehtane.pdb
+  151  ls molecules/?ethane.pdb
+  152  ls molecules/*ethane.pdb
+  153  ls molecules/???ethane.pdb
+  154  ls molecules/???ane.pdb
+  155  ls molecules/*.pdf
+  156  ls molecules/*pdf
+  157  touch test.txt
+  158  rm touch.txt
+  159  rm test.txt
+  160  touch test.txt | mv test.txt data/test.txt
+  161  ls
+  162  data
+  163  /data
+  164  cd data
+  165  ls
+  166  cd ..
+  167  touch test.pdf
+  168  rm test.pdf
+  169  cd writing/
+  170  ls
+  171  find .
+  172  find . -type d
+  173  find . -type f
+  174  find . -name *.txt
+  175  find . -name "*.txt"
+  176  git --version
+  177  git config --global user.name "Jakob236"
+  178  git config --global user.email "Thielmaj@students.uni-marburg.de"
+  179  git config --global user.name
+  180  cd
+  181  ls
+  182  cd desktop
+  183  pwd
+  184  ls
+  185  mkdir dessert
+  186  ls
+  187  cd dessert
+  188  cd ..
+  189  rm dessert
+  190  rm dessert -r
+  191  cd dessert
+  192  mkdir desserts
+  193  cd desserts
+  194  ls -a
+  195  ls
+  196  git init
+  197  ls -a
+  198  ls
+  199  ls -a
+  200  ls
+  201  nano
+  202  ls
+  203  mv desserts.md.txt desserts.md
+  204  git status
+  205  git add desserts.md
+  206  git status
+  207  git commit -m *added a list of favorite desserts*
+  208  git commit -m "added a list of favorite desserts"
+  209  matlabroot
+  210  $matlabroot
+  211  $matlabroot/toolbox/compiler/deploy/win32/mcrInstaller.exe
+  212  $matlabroot/toolbox/compiler/deploy/win64/mcrInstaller.exe
+  213  $MCRROOT/v$VER/runtime/win32/mclmcrrt$VER.dkk
+  214  $MCRROOT/v$VER/runtime/win32/mclmcrrt$VER.dll
+  215  $MCRROOT/v910/runtime/win32/mclmcrrt$VER.dll
+  216  $MCRROOT/v910/runtime/win64/mclmcrrt$VER.dll
+  217  $MCRROOT/v910/runtime/win64/mclmcrrt9_10.dll
+  218  C:\Program Files\MATLAB\MATLAB Runtime\v910\runtime\win64
+  219  cd c:
+  220  cd programme
+  221  cd matlab
+  222  cd matlab runtime
+  223  cd "matlab runtime"
+  224  $MCRROOT/v910/runtime/win64/mclmcrrt9_10.dll
+  225  v910/runtime/win64/mclmcrrt9_10.dll
+  226  cd v910/runtime/win64/mclmcrrt9_10.dll
+  227  cd v910/runtime/win64
+  228  $mclmcrrt9_10.dll
+  229  $"mclmcrrt9_10.dll"
+  230  $MCRROOT/C/
+  231  $MCRROOT/C/programme/matlat/
+  232  $MCRROOT/C/programme/matlab
+  233  $PATH
+  234  cd c:
+  235  cd programme
+  236  cd matlab
+  237  cd "matlab runtime"
+  238  $PATH
+  239  pwd
+  240  cd desktop
+  241  pwd
+  242  cd data-shell
+  243  ls
+  244  cd desserts
+  245  touch desserts.md
+  246  git add desserts.md
+  247  git status
+  248  git add desserts
+  249  git add desserts.md
+  250  git init
+  251  git add desserts
+  252  cd ..
+  253  git add desserts
+  254  cd desserts
+  255  git add desserts.md
+  256  git status
+  257  git commit -m "my favorite dess"
+  258  git push
+  259  git pull
+  260  git status
+  261  git push
+  262  git push *
+  263  git push --set-upstream desserts.md master
+  264  git status
+  265  git status
+  266  git status
+  267  git add *
+  268  git status
+  269  git diff
+  270  git diff
+  271  git status
+  272  git init
+  273  git status
+  274  git diff
+  275  git add *
+  276  git commit -m test
+  277  git diff
+  278  git add desserts.md
+  279  git status
+  280  git status
+  281  git add desserts.md
+  282  git commit -m test123
+  283  git status
+  284  git status
+  285  git log
+  286  git log .p
+  287  git log -p
+  288  cd
+  289  ls
+  290  cd desktop
+  291  cd data-shell
+  292  cd desserts
+  293  git diff
+  294  history
+  295  history 10
+  296  history > 
+  297  history > c:
+  298  history > c:123
+  299  history > c:123.txt
+  300  history > /C:hi.txt
+  301  history > /C:his.txt
+  302  history > C:his.txt
+  303  history > D:his.txt
+  304  history > .history.txt
+  305  git log -p
+  306  git push -u origin main
+  307  git remote add origin https://github.com/Jakob236/desserts.git
+  308  git push
+  309  git branch -M main
+  310  git remote add origin https://github.com/Jakob236/desserts.git
+  311  git remote add origin https://github.com/Jakob236/desserts.git
+  312  git branch -M main
+  313  git push -u origin main
+  314  git push
+  315  git pull
+  316  git push
+  317  git remote -v
+  318  git branch
+  319  git push -u origin main
+  320  git push origin main
+  321  git push origin main
+  322  get fetch
+  323  git fetch
+  324  git fetch
+  325  git fetch origin main
+  326  git diff
+  327  git pull
+  328  git pull origin main
+  329  git pull
+  330  git pull origin Jakob236-patch-1
+  331  pwd
+  332  cd desktop
+  333  cd data-shell
+  334  cd desserts
+  335  git branch
+  336  nano desserts.md
+  337  git status
+  338  history
+  339  history > his.txt
